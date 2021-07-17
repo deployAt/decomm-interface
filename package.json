@@ -16,9 +16,11 @@
   },
   "dependencies": {
     "@polkadot/api": "^4.16.2",
+    "@polkadot/api-contract": "^5.0.1",
     "@polkadot/extension-dapp": "^0.38.7",
     "@polkadot/keyring": "^6.10.1",
     "@polkadot/networks": "^6.10.1",
+    "@polkadot/react-hooks": "^0.39.1",
     "@polkadot/types": "^4.16.2",
     "@polkadot/ui-keyring": "^0.82.1",
     "@polkadot/ui-settings": "^0.82.1",
@@ -37,7 +39,6 @@
     "@babel/core": "^7.14.3",
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.20.0",
-    "eslint-config-semistandard": "^15.0.1",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
@@ -45,13 +46,11 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^5.0.0",
     "gh-pages": "^3.1.0",
-    "react-app-rewired": "^2.1.8",
-    "semistandard": "^16.0.0"
+    "react-app-rewired": "^2.1.8"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "semistandard"
+      "react-app"
     ],
     "plugins": [
       "only-warn"
